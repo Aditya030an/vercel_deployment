@@ -5,4 +5,4 @@ app.use("/" , (req , res)=>{
     res.send("Server is running");
 });
 
-app.listen(5000 , console.log("Server started on PORT 5000"));
+app.listen( "https://vercel-deployment-server-khaki.vercel.app/" || 5000 , console.log("Server started on PORT 5000"));
